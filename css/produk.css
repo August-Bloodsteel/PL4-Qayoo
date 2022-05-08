@@ -1,0 +1,311 @@
+.product .our h1
+{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 115%;
+    /* identical to box height, or 74px */
+
+
+    color: #464020;
+}
+
+.product .star
+{
+    position: absolute;
+    top: 10px;
+}
+
+/* .carousel-inner .carousel-item>.star
+{
+    margin-bottom: 2000px;
+} */
+
+.product .star h2
+{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    /* identical to box height, or 46px */
+
+    text-align: center;
+
+    color: #464020;
+}
+.product .star h4
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 18px */
+    margin: 20px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.product .star h4 span
+{
+    position: relative;
+    top: 2px;
+}
+.product .star .bintang
+{
+    width: 152px;
+    height: 24px;
+}
+
+.product .star .titik
+{
+    background-color: #464020;
+    height: 2px;
+    width: 2px;
+}
+
+.product .details
+{
+    width: 252px;
+}
+.product .details h1
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 115%;
+    /* identical to box height, or 37px */
+    
+    
+    
+    color: #464020;
+}
+.pro .g1
+{
+    width: 417px;
+    height: 553px;
+}
+.pro .g2
+{
+    width: 417px;
+    height: 527px;
+}
+.pro .g3
+{
+    width: 450px;
+    height: 427px;
+}
+.product .details h3
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.product .price
+{
+    width: 303px;
+}
+
+.product .price h1
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 115%;
+    /* identical to box height, or 37px */
+
+
+    color: #464020;
+}
+.product .price h1#disk
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    /* identical to box height, or 46px */
+    
+    
+    color: #464020;
+}
+.product .price h5#penawaran
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+
+    color: rgba(0, 0, 0, 0.5);
+}
+.product .price h4#uang
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    text-decoration-line: line-through;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* ANIMASI */
+.carousel-fade .carousel-inner .carousel-item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+  }
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+
+  }
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+    z-index: 1;
+  }
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+
+   
+  }
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+
+  .carousel-inner .carousel-item.active .pro .g1 {
+    animation: zoom 1s;
+  }
+  .carousel-inner .carousel-item.active .pro .g2 {
+    animation: zoom2 1s;
+  }
+  .carousel-inner .carousel-item.active .pro .g3 {
+    animation: zoom3 1s;
+  }
+
+  .carousel-inner .carousel-item.active .details>h1{
+    animation: font1 1s;
+  }
+
+  .carousel-inner .carousel-item.active .details>h3{
+    animation: font2 1s;
+  }
+
+  .carousel-inner .carousel-item.active .price>h1{
+    animation: font1 1s;
+  }
+  .carousel-inner .carousel-item.active .price #disk{
+    animation: gg 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h3{
+    animation: font2 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h5{
+    animation: font2 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h4{
+    animation: font3 1s;
+  }
+  
+  .carousel-inner .carousel-item
+  {
+      height: 120vh;
+  }
+
+  @keyframes zoom 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 417px;
+        height: 553px;
+      }
+  }
+  @keyframes zoom2 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 417px;
+        height: 527px;
+      }
+  }
+  @keyframes zoom3 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 450px;
+        height: 427px;
+      }
+  }
+
+  @keyframes font1
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 32px;
+      }
+  }
+
+  @keyframes font2
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 16px;
+      }
+  }
+
+  @keyframes font3
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 20px;
+      }
+  }
+  
+  @keyframes gg
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 40px;
+      }
+  }
+  /* END ANIMASI */
