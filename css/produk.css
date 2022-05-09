@@ -419,9 +419,9 @@ display: none;
   {
     .product .details
     {
-      width: 303px;
+        width: 303px;
         position: relative;
-        top: 100px;
+        top: 80px;
         
     }
     .product .details h1
@@ -440,7 +440,7 @@ display: none;
     .pro
     {
       position: relative;
-      top: 100px;
+      top: 70px;
     }
     .pro .g1
     {
@@ -454,8 +454,8 @@ display: none;
     }
     .pro .g3
     {
-        width: 450px;
-        height: 427px;
+        width: 350px;
+        height: 327px;
     }
     .product .details h3
     {
@@ -469,12 +469,16 @@ display: none;
         
         color: rgba(0, 0, 0, 0.5);
     }
+    .product .details h3#cantik
+    {
+      margin-bottom: 30px;
+    }
 
     .product .price
     {
         width: 303px;
         position: relative;
-        top: 50px;
+        top: 40px;
     }
 
     .product .price h1
@@ -531,7 +535,25 @@ display: none;
     .carousel-inner .carousel-item
     {
         width: 100%;
-        height: 1351px;
+        height: 1300px;
+    }
+
+    .cart
+    {
+      width: 303px;
+    }
+
+    .cart:hover img#pendek
+    {
+      display: inline-block;
+      animation: fade2 1s;
+    }
+
+    .cart:hover img#panjang
+    {
+      display: none;
+      visibility: visible;
+      animation: fade 1s;
     }
 
     /* prev dan next res */
@@ -601,6 +623,7 @@ display: none;
         height: 0px;
       }
       to {
+        top: 100px;
         width: 312px;
         height: 416px;
       }
@@ -613,6 +636,7 @@ display: none;
         height: 0px;
       }
       to {
+        top: 100px;
         width: 312px;
         height: 399px;
       }
@@ -625,8 +649,9 @@ display: none;
         height: 0px;
       }
       to {
-        width: 450px;
-        height: 427px;
+        top: 100px;
+        width: 350px;
+        height: 327px;
       }
   }
 
@@ -670,4 +695,31 @@ display: none;
       }
   }
     /* end animasi responsive */
+  }
+
+
+
+  @media only screen and (max-width: 576px)
+  {
+        /* prev dan next res */
+
+  .product .carousel button
+  {
+    position: absolute;
+    top: 600px;
+    width: 32px;
+    height: 32px;
+  }
+  .product .carousel button#kiri
+  {
+    position: absolute;
+    left: 32px;
+  }
+  .product .carousel button#kanan
+  {
+    position: absolute;
+    right: 32px;
+  }
+
+  /* end prev dan next res */
   }
