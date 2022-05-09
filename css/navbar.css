@@ -12,6 +12,7 @@ nav{
 
     font-family: 'Open Sans';
     font-style: normal;
+    z-index: 100;
 }
 
 .navbar .nav_logo{
