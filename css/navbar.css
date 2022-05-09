@@ -1,0 +1,134 @@
+nav{
+    transition: 0.5s;
+}
+
+.navbar{
+    background: rgba(70, 64, 32, 1);
+    transition: 00.5s;
+    height: 100vh;
+    width: 80px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    position: fixed;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.navbar .nav_logo{
+    display: none;
+}
+
+.navbar .icon{
+    display: none;
+}
+
+.nav-links ul{
+    height: 100vh;
+    width: 80px;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+.nav-links ul li.links{
+    position: relative;
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transform: rotate(-90deg);
+    margin: 3.35rem 0%;
+}
+
+.nav-links ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: rgba(217, 199, 180, 1);
+
+    transition: 0.5s;
+}
+
+@media only screen and (max-width:1025px) {
+}
+
+@media only screen and (max-width:900px){   
+    .navbar{
+        width: 100%;
+        padding: 16px 32px;
+        height: auto;
+    }    
+
+    .navbar .nav_logo{
+        display: block;
+    }
+
+    .navbar .icon{
+        display: contents;
+    }
+
+    .navbar .icon .close{
+        margin-bottom: 10px;
+    }
+
+    .navbar .nav_menu{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 150%;
+
+        display: flex;
+        align-items: center;
+        color: #EAE1D6;
+        margin: 0%;
+    }
+
+    .nav-links ul{
+        height: auto;
+        width: auto;
+    }
+    
+    .nav-links ul li{
+        display: block;
+    }
+    
+    .nav-links ul li.links{
+        flex-direction: row;
+        transform: rotate(0deg);
+        margin: 1rem 0%;
+
+        justify-content: right;
+    }
+
+    .nav-links ul li a{
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 44px;
+        text-align: right;
+        letter-spacing: 0.005em;
+        color: #EAE1D6;
+    }
+
+    .nav-links{
+        position: absolute;
+        background: rgba(70, 64, 32, 1);
+        height: 100vh;
+        width: 259px;
+        top: 0;
+        right: -259px;
+        text-align: right;
+        z-index: 2;
+        transition: 1s;
+    }
+
+    .nav-links ul{
+        padding: 35px;
+    }
+}
+
+@media only screen and (max-width:426px){
+    .navbar{
+        padding: 16px 32px;
+    }
+}
