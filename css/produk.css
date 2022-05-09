@@ -1,3 +1,4 @@
+
 .product .our h1
 {
     font-family: 'Fraunces';
@@ -165,6 +166,107 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.cart
+{
+  margin-top: 42px;
+  background: #BF9650;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 173px;
+  height: 48px;
+  transition: 0.5s;
+}
+
+/* .cart a i
+{
+  font-size: 2em;
+} */
+
+
+.cart a
+{
+  padding: 12px 16px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  
+  
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cart img#panjang
+{
+display: none;
+}
+
+
+.cart:hover
+{
+  width: 192px;
+}
+.cart:hover img#pendek
+{
+  display: none;
+  animation: fade2 1s;
+}
+
+.cart:hover img#panjang
+{
+  display: inline-block;
+  visibility: visible;
+  animation: fade 1s;
+}
+
+@keyframes fade
+{
+  from
+  {
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+@keyframes fade2
+{
+  from
+  {
+    opacity: 100%;
+  }
+  to
+  {
+    opacity: 0%;
+  }
+}
+
+/* prev dan next */
+
+.product .carousel button
+{
+  position: absolute;
+  top: 730px;
+  width: 32px;
+  height: 32px;
+}
+.product .carousel button#kiri
+{
+  position: absolute;
+  left: 690px;
+}
+.product .carousel button#kanan
+{
+  position: absolute;
+  right: 730px;
+}
+
+/* end prev dan next */
+
 /* ANIMASI */
 .carousel-fade .carousel-inner .carousel-item {
     opacity: 0;
@@ -309,3 +411,263 @@
       }
   }
   /* END ANIMASI */
+
+
+  /* responsive */
+
+  @media only screen and (max-width:1024px)
+  {
+    .product .details
+    {
+      width: 303px;
+        position: relative;
+        top: 100px;
+        
+    }
+    .product .details h1
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 115%;
+        /* identical to box height, or 37px */
+        
+        
+        
+        color: #464020;
+    }
+    .pro
+    {
+      position: relative;
+      top: 100px;
+    }
+    .pro .g1
+    {
+      width: 312px;
+      height: 416px;
+    }
+    .pro .g2
+    {
+      width: 312px;
+      height: 399px;
+    }
+    .pro .g3
+    {
+        width: 450px;
+        height: 427px;
+    }
+    .product .details h3
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+        width: 252px;
+        
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .product .price
+    {
+        width: 303px;
+        position: relative;
+        top: 50px;
+    }
+
+    .product .price h1
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 115%;
+        /* identical to box height, or 37px */
+
+
+        color: #464020;
+    }
+    .product .price h1#disk
+    {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 115%;
+      padding-left: 20px;
+      /* identical to box height, or 23px */
+      
+      
+      color: #464020;
+    }
+    .product .price h5#penawaran
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+        width: 323px;
+
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .product .price h4#uang
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        /* identical to box height, or 23px */
+        
+        text-decoration-line: line-through;
+        
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .carousel-inner .carousel-item
+    {
+        width: 100%;
+        height: 1351px;
+    }
+
+    /* prev dan next res */
+
+  .product .carousel button
+  {
+    position: absolute;
+    top: 600px;
+    width: 32px;
+    height: 32px;
+  }
+  .product .carousel button#kiri
+  {
+    position: absolute;
+    left: 360px;
+  }
+  .product .carousel button#kanan
+  {
+    position: absolute;
+    right: 350px;
+  }
+
+  /* end prev dan next res */
+
+    /* animasi responsive */
+    .carousel-inner .carousel-item.active .pro .g1 {
+      animation: zoom 1s;
+    }
+    .carousel-inner .carousel-item.active .pro .g2 {
+      animation: zoom2 1s;
+    }
+    .carousel-inner .carousel-item.active .pro .g3 {
+      animation: zoom3 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .details>h1{
+      animation: font1 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .details>h3{
+      animation: font2 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .price>h1{
+      animation: font1 1s;
+    }
+    .carousel-inner .carousel-item.active .price #disk{
+      animation: gg 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h3{
+      animation: font2 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h5{
+      animation: font2 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h4{
+      animation: font3 1s;
+    }
+
+
+
+    @keyframes zoom 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 312px;
+        height: 416px;
+      }
+  }
+  @keyframes zoom2 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 312px;
+        height: 399px;
+      }
+  }
+  @keyframes zoom3 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 450px;
+        height: 427px;
+      }
+  }
+
+  @keyframes font1
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 32px;
+      }
+  }
+
+  @keyframes font2
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 16px;
+      }
+  }
+
+  @keyframes font3
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 20px;
+      }
+  }
+  
+  @keyframes gg
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 40px;
+      }
+  }
+    /* end animasi responsive */
+  }
