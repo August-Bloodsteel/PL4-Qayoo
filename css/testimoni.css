@@ -1,12 +1,17 @@
 .testimoni
 {
     background-color: #EAE1D6;
-    height: 100vh;
+    height: 91vh;
 }
 
 .testimoni .carousel .carousel-inner
 {
     margin-top: 80px;
+}
+
+.testimoni .carousel-indicators
+{
+    visibility: hidden;
 }
 
 .testimoni .kata h1
@@ -116,11 +121,38 @@
 
 /* responsive */
 
-@media only screen and (max-width: 576px)
+@media only screen and (max-width: 1024px)
 {
     .testimoni
     {
         height: 200vh;
+    }
+
+    .testimoni .kata .tombol
+    {
+        display: none;
+    }
+    .testimoni .kata .tombol button
+    {
+        display: none;
+    }
+
+    .testimoni .carousel-indicators
+    {
+        visibility: visible;
+    }
+    .testimoni .carousel-indicators button
+    {
+        position: relative;
+        top: -20px;
+        width: 8px;
+        height: 8px;
+        background-color: rgba(0, 0, 0, 0.25);
+        border-radius: 100%;
+    }
+    .testimoni .carousel-indicators button.active
+    {
+        background-color: rgba(0, 0, 0, 0.75);
     }
     .testimoni .kata h1
     {
@@ -131,7 +163,7 @@
         line-height: 115%;
         /* or 41px */
         width: 293px;
-        
+        margin-bottom: 24px;
         color: #464020;
     }
     
@@ -157,6 +189,8 @@
     }
     .testimoni .testi .bint img
     {
+        margin-top: 24px;
+        margin-bottom: 24px;
         width: 152px;
         height: 24px;
     }
@@ -173,6 +207,7 @@
         
         display: flex;
         align-items: center;
+        margin-bottom: 32px;
         
         color: rgba(0, 0, 0, 0.5);
     }
@@ -203,5 +238,14 @@
         align-items: center;
         
         color: rgba(0, 0, 0, 0.5);
+    }
+}
+
+
+@media only screen and (max-width: 576px)
+{
+    .testimoni
+    {
+        height: 190vh;
     }
 }
