@@ -1,7 +1,31 @@
 header{
     background-color: rgba(217, 199, 180, 1);
+    font-family: 'Open Sans';
 }
 
 .header_banner{
     height: 100vh;
+}
+
+header .header_title{
+    font-family: 'Fraunces';
+    font-weight: 600;
+    font-size: 3.75rem;
+    line-height: 115%;
+
+    color: rgba(70, 64, 32, 1);
+    margin-bottom: 1.75rem;
+}
+
+header .header_para{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.1rem;
+    line-height: 150%;
+
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 30rem;
 }
