@@ -1,0 +1,756 @@
+
+.product
+{
+
+}
+.product .our h1
+{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 115%;
+    /* identical to box height, or 74px */
+
+
+    color: #464020;
+}
+
+.product .star
+{
+    position: absolute;
+    top: 10px;
+}
+
+/* .carousel-inner .carousel-item>.star
+{
+    margin-bottom: 2000px;
+} */
+
+.product .star h2
+{
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    /* identical to box height, or 46px */
+
+    text-align: center;
+
+    color: #464020;
+}
+.product .star h4
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 115%;
+    /* or 18px */
+    margin: 20px;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+.product .star h4 span
+{
+    position: relative;
+    top: 2px;
+}
+.product .star .bintang
+{
+    width: 152px;
+    height: 24px;
+}
+
+.product .star .titik
+{
+    background-color: #464020;
+    height: 2px;
+    width: 2px;
+}
+
+.product .details
+{
+    width: 252px;
+}
+.product .details h1
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 115%;
+    /* identical to box height, or 37px */
+    
+    
+    
+    color: #464020;
+}
+.pro
+{
+  background-color: #464020;
+  width: 417px;
+  height: 417px;
+  border-radius: 100%;
+  position: relative;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pro .g1
+{
+  width: 227px;
+  height: 448px;
+  position: absolute;
+  bottom: 90px;
+}
+.pro .g2
+{
+  width: 279px;
+  height: 440px;
+  position: absolute;
+  bottom: 70px;
+}
+.pro .g3
+{
+  width: 392px;
+  height: 254px;
+}
+.product .details h3
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.product .price
+{
+    width: 303px;
+}
+
+.product .price h1
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 115%;
+    /* identical to box height, or 37px */
+
+
+    color: #464020;
+}
+.product .price h1#disk
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 115%;
+    /* identical to box height, or 46px */
+    
+    
+    color: #464020;
+}
+.product .price h5#penawaran
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    /* or 29px */
+    
+
+    color: rgba(0, 0, 0, 0.5);
+}
+.product .price h4#uang
+{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 115%;
+    /* identical to box height, or 23px */
+    
+    text-decoration-line: line-through;
+    
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.cart
+{
+  margin-top: 42px;
+  background: #BF9650;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 173px;
+  height: 48px;
+  transition: 0.5s;
+}
+
+/* .cart a i
+{
+  font-size: 2em;
+} */
+
+
+.cart a
+{
+  padding: 12px 16px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  
+  
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cart img#panjang
+{
+display: none;
+}
+
+
+.cart:hover
+{
+  width: 192px;
+}
+.cart:hover img#pendek
+{
+  display: none;
+  animation: fade2 1s;
+}
+
+.cart:hover img#panjang
+{
+  display: inline-block;
+  visibility: visible;
+  animation: fade 1s;
+}
+
+@keyframes fade
+{
+  from
+  {
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+@keyframes fade2
+{
+  from
+  {
+    opacity: 100%;
+  }
+  to
+  {
+    opacity: 0%;
+  }
+}
+
+/* prev dan next */
+
+.product .carousel button
+{
+  position: relative;
+  width: 32px;
+  height: 32px;
+}
+.product .carousel  button#kiri
+{
+  position: absolute;
+  left: 690px;
+  top: 790px;
+
+}
+.product .carousel  button#kanan
+{
+  position: absolute;
+  right: 730px;
+  top: 790px;
+}
+
+/* end prev dan next */
+
+/* ANIMASI */
+.carousel-fade .carousel-inner .carousel-item {
+    opacity: 0;
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    -o-transition-property: opacity;
+    transition-property: opacity;
+
+  }
+  .carousel-fade .carousel-inner .active {
+    opacity: 1;
+
+  }
+  .carousel-fade .carousel-inner .active.left,
+  .carousel-fade .carousel-inner .active.right {
+    opacity: 0;
+    z-index: 1;
+  }
+  .carousel-fade .carousel-inner .next.left,
+  .carousel-fade .carousel-inner .prev.right {
+    opacity: 1;
+
+   
+  }
+  .carousel-fade .carousel-control {
+    z-index: 2;
+  }
+
+  .carousel-inner .carousel-item.active .pro .g1 {
+    animation: zoom 1s;
+  }
+  .carousel-inner .carousel-item.active .pro .g2 {
+    animation: zoom2 1s;
+  }
+  .carousel-inner .carousel-item.active .pro .g3 {
+    animation: zoom3 1s;
+  }
+
+  .carousel-inner .carousel-item.active .details>h1{
+    animation: font1 1s;
+  }
+
+  .carousel-inner .carousel-item.active .details>h3{
+    animation: font2 1s;
+  }
+
+  .carousel-inner .carousel-item.active .price>h1{
+    animation: font1 1s;
+  }
+  .carousel-inner .carousel-item.active .price #disk{
+    animation: gg 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h3{
+    animation: font2 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h5{
+    animation: font2 1s;
+  }
+  .carousel-inner .carousel-item.active .price>h4{
+    animation: font3 1s;
+  }
+  
+  .product .carousel-inner .carousel-item
+  {
+      height: 132vh;
+  }
+
+  .product
+  {
+      height: 135vh;
+  }
+
+  @keyframes zoom 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 227px;
+        height: 448px;
+      }
+  }
+  @keyframes zoom2 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 279px;
+        height: 440px;
+      }
+  }
+  @keyframes zoom3 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 392px;
+        height: 254px;
+      }
+  }
+
+  @keyframes font1
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 32px;
+      }
+  }
+
+  @keyframes font2
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 16px;
+      }
+  }
+
+  @keyframes font3
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 20px;
+      }
+  }
+  
+  @keyframes gg
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 40px;
+      }
+  }
+  /* END ANIMASI */
+
+
+  /* responsive */
+
+  @media only screen and (max-width:1024px)
+  {
+    .product .details
+    {
+        width: 303px;
+        position: relative;
+        top: 160px;
+        
+    }
+    .product .details h1
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 115%;
+        /* identical to box height, or 37px */
+        
+        
+        
+        color: #464020;
+    }
+    .pro
+    {
+      position: relative;
+      top: 200px;
+      width: 312px;
+      height: 314px;
+    }
+    .pro .g1
+    {
+      width: 174px;
+      height: 334px;
+    }
+    .pro .g2
+    {
+      width: 215px;
+      height: 339px;
+    }
+    .pro .g3
+    {
+      width: 326px;
+      height: 212px;
+    }
+    .product .details h3
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+        width: 252px;
+        
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .product .details h3#cantik
+    {
+      margin-bottom: 30px;
+    }
+
+    .product .price
+    {
+        width: 303px;
+        position: relative;
+        top: 70px;
+    }
+
+    .product .price h1
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 115%;
+        /* identical to box height, or 37px */
+
+
+        color: #464020;
+    }
+    .product .price h1#disk
+    {
+      font-family: 'Open Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 115%;
+      padding-left: 20px;
+      /* identical to box height, or 23px */
+      
+      
+      color: #464020;
+    }
+    .product .price h5#penawaran
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        /* or 29px */
+        width: 323px;
+
+        color: rgba(0, 0, 0, 0.5);
+    }
+    .product .price h4#uang
+    {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 115%;
+        /* identical to box height, or 23px */
+        
+        text-decoration-line: line-through;
+        
+        color: rgba(0, 0, 0, 0.5);
+    }
+
+    .product
+    {
+      height: 1400px;
+    }
+    .product .carousel-inner .carousel-item
+    {
+        width: 100%;
+        height: 1300px;
+        z-index: 2;
+    }
+
+    .cart
+    {
+      width: 303px;
+    }
+
+    .cart:hover img#pendek
+    {
+      display: inline-block;
+      animation: fade2 1s;
+    }
+
+    .cart:hover img#panjang
+    {
+      display: none;
+      visibility: visible;
+      animation: fade 1s;
+    }
+
+    /* prev dan next res */
+
+  .product .carousel button
+  {
+    top: 500px;
+    width: 32px;
+    height: 32px;
+    z-index: 100;
+  }
+  .product .carousel button#kiri
+  {
+    position: absolute;
+    left: 360px;
+  }
+  .product .carousel button#kanan
+  {
+    position: absolute;
+    right: 350px;
+  }
+
+  /* end prev dan next res */
+
+    /* animasi responsive */
+    .carousel-inner .carousel-item.active .pro .g1 {
+      animation: zoom 1s;
+    }
+    .carousel-inner .carousel-item.active .pro .g2 {
+      animation: zoom2 1s;
+    }
+    .carousel-inner .carousel-item.active .pro .g3 {
+      animation: zoom3 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .details>h1{
+      animation: font1 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .details>h3{
+      animation: font2 1s;
+    }
+  
+    .carousel-inner .carousel-item.active .price>h1{
+      animation: font1 1s;
+    }
+    .carousel-inner .carousel-item.active .price #disk{
+      animation: gg 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h3{
+      animation: font2 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h5{
+      animation: font2 1s;
+    }
+    .carousel-inner .carousel-item.active .price>h4{
+      animation: font3 1s;
+    }
+
+
+
+    @keyframes zoom 
+   {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 174px;
+        height: 334px;
+      }
+  }
+  @keyframes zoom2 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 215px;
+        height: 339px;
+      }
+  }
+  @keyframes zoom3 
+  {
+    from {
+
+        width: 0px;
+        height: 0px;
+      }
+      to {
+        width: 326px;
+        height: 212px;
+      }
+  }
+
+  @keyframes font1
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 32px;
+      }
+  }
+
+  @keyframes font2
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 16px;
+      }
+  }
+
+  @keyframes font3
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 20px;
+      }
+  }
+  
+  @keyframes gg
+  {
+    from {
+        font-size: 0px;
+      }
+      to {
+        font-size: 40px;
+      }
+  }
+    /* end animasi responsive */
+  }
+
+
+
+  @media only screen and (max-width: 576px)
+  {
+        /* prev dan next res */
+
+  .product .carousel button
+  {
+    width: 32px;
+    height: 32px;
+  }
+  .product .carousel button#kiri
+  {
+    position: absolute;
+    left: 32px;
+    top: 630px;
+  }
+  .product .carousel button#kanan
+  {
+    position: absolute;
+    right: 32px;
+    top: 630px;
+  }
+
+  /* end prev dan next res */
+  }
