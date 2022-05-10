@@ -60,9 +60,9 @@ nav{
     transition: 3s;
 }
 
-.navbar:hover .hover_menu{
+/* .navbar:hover .hover_menu{
     display: flex;
-}
+} */
 
 /* .navbar .nav_wrap .hover_menu:hover{
     display: none;
