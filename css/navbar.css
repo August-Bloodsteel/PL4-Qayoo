@@ -51,13 +51,25 @@ nav{
 
     transition: 0.5s;
 }
+/* .nav-links ul li a:hover{
+    display: flex;
+    color: aqua;
+} */
+.navbar .nav_wrap:hover .hover_menu{
+    display: flex;
+    color: aqua;
+}
+
 
 .navbar .nav_wrap{
     transition: 3s;
 }
 
-.navbar .nav_wrap:hover .nav_menu{
+.navbar:hover .hover_menu{
     display: flex;
+}
+.navbar .nav_wrap .hover_menu:hover{
+    display: none;
 }
 
 .navbar .hover_menu{
@@ -66,18 +78,16 @@ nav{
     background: rgba(217, 199, 180, 0.75);
 
     position: absolute;
-    display: none;
-    align-items: center;
     
+    align-items: center;
+    display: none;
     top: -0.5%;
     left: 100.5%;
     transition: 3s;
+    animation: transisi 0.5s;
 }
 
-.navbar .hover_menu ul{
-    padding: 0;
-    margin: 0;
-}
+
 
 .navbar .hover_menu ul li.links_2{
     list-style: none;
@@ -90,7 +100,52 @@ nav{
     line-height: 115%;
     color: #464020;
     padding-left: 97px;
+    animation: transisi3 0.5s;
 
+}
+
+@keyframes transisi
+{
+    from
+    {
+        width: 0vw;
+        height: 101vh;
+    }
+    to
+    {
+        height: 101vh;
+        width: 101vw;
+    }
+}
+
+
+
+@keyframes transisi2
+{
+    from
+    {
+        width: 0vw;
+    }
+    to
+    {
+        width: 101vw;
+    }
+}
+@keyframes transisi3
+{
+    from
+    {
+       padding-left: 0px;
+    }
+    to
+    {
+        padding-left: 97px;
+    }
+}
+
+.navbar .hover_menu ul{
+    padding: 0;
+    margin: 0;
 }
 
 .navbar .hover_menu .nav_lines{
@@ -99,11 +154,9 @@ nav{
     width: 101vw;
     display: flex;
     margin: 0.5rem 0rem;
+    animation: transisi2 0.5s;
 }
-
-/* .navbar:hover .hover_menu{
-    display: flex;
-} */
+ 
 
 @media only screen and (max-width:1025px) {
 }
@@ -173,7 +226,7 @@ nav{
         right: -259px;
         text-align: right;
         z-index: 2;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .nav-links ul{
