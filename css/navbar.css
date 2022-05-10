@@ -51,6 +51,59 @@ nav{
     transition: 0.5s;
 }
 
+.navbar .nav_wrap{
+    transition: 3s;
+}
+
+.navbar .nav_wrap:hover .nav_menu{
+    display: flex;
+}
+
+.navbar .hover_menu{
+    height: 101vh;
+    width: 101vw;
+    background: rgba(217, 199, 180, 0.75);
+
+    position: absolute;
+    display: none;
+    align-items: center;
+    
+    top: -0.5%;
+    left: 100.5%;
+    transition: 3s;
+}
+
+.navbar .hover_menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar .hover_menu ul li.links_2{
+    list-style: none;
+}
+
+.navbar .hover_menu ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 115%;
+    color: #464020;
+    padding-left: 97px;
+
+}
+
+.navbar .hover_menu .nav_lines{
+    color: rgba(0, 0, 0, 0.5);
+    height: 2px;
+    width: 101vw;
+    display: flex;
+    margin: 0.5rem 0rem;
+}
+
+/* .navbar:hover .hover_menu{
+    display: flex;
+} */
+
 @media only screen and (max-width:1025px) {
 }
 
