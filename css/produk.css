@@ -1,4 +1,8 @@
 
+.product
+{
+
+}
 .product .our h1
 {
     font-family: 'Fraunces';
@@ -273,14 +277,14 @@ display: none;
 {
   position: absolute;
   left: 690px;
-  top: 730px;
+  top: 790px;
 
 }
 .product .carousel  button#kanan
 {
   position: absolute;
   right: 730px;
-  top: 730px;
+  top: 790px;
 }
 
 /* end prev dan next */
@@ -349,7 +353,12 @@ display: none;
   
   .product .carousel-inner .carousel-item
   {
-      height: 120vh;
+      height: 132vh;
+  }
+
+  .product
+  {
+      height: 135vh;
   }
 
   @keyframes zoom 

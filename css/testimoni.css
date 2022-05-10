@@ -1,11 +1,12 @@
 .testimoni
 {
     background-color: #EAE1D6;
+    height: 100vh;
 }
 
-.testimoni .kata
+.testimoni .carousel .carousel-inner
 {
-
+    margin-top: 80px;
 }
 
 .testimoni .kata h1
@@ -91,19 +92,24 @@
 
 .testimoni .carousel button#kiri
 {
-  position: absolute;
-  left: 180px;
-  top: 630px;
+  position: relative;
+  left: 0px;
+  top: 0px;
   width: 32px;
   height: 32px;
 }
 .testimoni .carousel button#kanan
 {
-  position: absolute;
-  right: 990px;
-  top: 630px;
+  position: relative;
+  right: 0px;
+  top: 0px;
   width: 32px;
   height: 32px;
+}
+
+.testimoni .kata .tombol
+{
+    margin-top: 70px;
 }
 /* end buton */
 
@@ -112,6 +118,10 @@
 
 @media only screen and (max-width: 576px)
 {
+    .testimoni
+    {
+        height: 200vh;
+    }
     .testimoni .kata h1
     {
         font-family: 'Fraunces';
