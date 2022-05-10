@@ -1,31 +1,31 @@
 <!-- =========================== Start Navbar Area =========================== -->
-    <nav class="navbar" id="navbarbleb">
+    <nav class="navbar" id="navbarbleb" onmouseover="keluar()">
         <a href="index.html"><img src="./img/qayoo_putih.svg" class=nav_logo alt=""></a>
         <div class="nav_wrap">
             
             <div class="nav-links" id="NavLinks">
                 <ul class="d-flex flex-column justify-content-center">
                     <li class="icon close"><span class="close" onclick="hideMenu()"><img src="./img/close.svg" alt=""></span></li>
-                    <li class="links"><a href="#navbar">Home</a></li>
-                    <li class="links"><a href="#about">About Us</a></li>
-                    <li class="links"><a href="#produk">Product</a></li>
-                    <li class="links"><a href="#testimoni">Testimoni</a></li>
-                    <li class="links"><a href="#help">Contact</a></li>
+                    <li class="links"><a href="#navbar" onclick="sip()">Home</a></li>
+                    <li class="links"><a href="#about" onclick="sip()">About Us</a></li>
+                    <li class="links"><a href="#produk" onclick="sip()">Product</a></li>
+                    <li class="links"><a href="#testimoni" onclick="sip()">Testimoni</a></li>
+                    <li class="links"><a href="#help" onclick="sip()">Contact</a></li>
                 </ul>
             </div>
             <span class="icon bars" onclick="showMenu()"><p class="nav_menu">MENU</p></span>
-    
-            <div class="hover_menu">
+            
+            <div class="hover_menu" id="hover">
                 <ul>
-                    <li class="links_2"><a href="#navbar">Home</a></li>
+                    <li class="links_2"><a href="#navbar" id="home" onclick="sip()">Home</a></li>
                     <hr class="nav_lines"></hr>
-                    <li class="links_2"><a href="#about">About Us</a></li>
+                    <li class="links_2"><a href="#about" onclick="sip()">About Us</a></li>
                     <hr class="nav_lines"></hr>
-                    <li class="links_2"><a href="#produk">Product</a></li>
+                    <li class="links_2"><a href="#produk" onclick="sip()">Product</a></li>
                     <hr class="nav_lines"></hr>
-                    <li class="links_2"><a href="#testimoni">Testimoni</a></li>
+                    <li class="links_2"><a href="#testimoni" onclick="sip()">Testimoni</a></li>
                     <hr class="nav_lines"></hr>
-                    <li class="links_2"><a href="#help">Contact</a></li>
+                    <li class="links_2"><a href="#help" onclick="sip()">Contact</a></li>
                 </ul>
             </div>
 
@@ -33,6 +33,22 @@
     </nav>
 
 <script>
+
+    // var gg = document.getElementById("home");
+    var ilang = document.getElementById("hover")
+    var muncul = document.getElementById("navbarbleb")
+
+    function sip()
+    {
+
+     ilang.style.display = "none";
+            
+    }
+
+    function keluar()
+    {
+        ilang.style.display = "flex";
+    }
 
     //   var nav = document.getElementById("navbarbleb");
     //   var head = document.getElementById("header");
