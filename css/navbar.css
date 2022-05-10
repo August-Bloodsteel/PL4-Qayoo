@@ -55,11 +55,6 @@ nav{
     display: flex;
     color: aqua;
 } */
-.navbar .nav_wrap:hover .hover_menu{
-    display: flex;
-    color: aqua;
-}
-
 
 .navbar .nav_wrap{
     transition: 3s;
@@ -68,9 +63,10 @@ nav{
 .navbar:hover .hover_menu{
     display: flex;
 }
-.navbar .nav_wrap .hover_menu:hover{
+
+/* .navbar .nav_wrap .hover_menu:hover{
     display: none;
-}
+} */
 
 .navbar .hover_menu{
     height: 101vh;

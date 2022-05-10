@@ -15,11 +15,11 @@
             </div>
             <span class="icon bars" onclick="showMenu()"><p class="nav_menu">MENU</p></span>
             
-            <div class="hover_menu">
+            <div class="hover_menu" id="hover">
                 <ul>
-                    <li class="links_2"><a href="#navbar">Home</a></li>
+                    <li class="links_2"><a href="#navbar" id="home" >Home</a></li>
                     <hr class="nav_lines"></hr>
-                    <li class="links_2"><a href="#about">About Us</a></li>
+                    <li class="links_2"><a href="#about" onclick="sip()">About Us</a></li>
                     <hr class="nav_lines"></hr>
                     <li class="links_2"><a href="#produk">Product</a></li>
                     <hr class="nav_lines"></hr>
@@ -33,6 +33,26 @@
     </nav>
 
 <script>
+
+    // var gg = document.getElementById("home");
+    var ilang = document.getElementById("hover")
+    var muncul = document.getElementById("navbarbleb")
+
+    function sip()
+    {
+
+     ilang.style.display = "none";
+            
+    }
+
+    function ok()
+    {
+        sip = ilang.style.display = "none";
+        if(sip)
+        {
+            ilang.style.display = "flex";
+        }
+    }
 
     //   var nav = document.getElementById("navbarbleb");
     //   var head = document.getElementById("header");
