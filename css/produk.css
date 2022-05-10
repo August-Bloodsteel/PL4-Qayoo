@@ -115,6 +115,7 @@
 }
 .pro .g3
 {
+  position: absolute;
   width: 392px;
   height: 254px;
 }
@@ -273,18 +274,23 @@ display: none;
   width: 32px;
   height: 32px;
 }
+.product .pro .geser
+{
+  position: relative;
+  top: 250px;
+}
 .product .carousel  button#kiri
 {
   position: absolute;
-  left: 690px;
-  top: 790px;
+  left: 0px;
+  top: 0px;
 
 }
 .product .carousel  button#kanan
 {
   position: absolute;
-  right: 730px;
-  top: 790px;
+  right: 0px;
+  top: 0px;
 }
 
 /* end prev dan next */
@@ -592,9 +598,13 @@ display: none;
 
     /* prev dan next res */
 
+    .product .pro .geser
+    {
+      position: relative;
+      top: 170px;
+    }
   .product .carousel button
   {
-    top: 500px;
     width: 32px;
     height: 32px;
     z-index: 100;
@@ -602,12 +612,12 @@ display: none;
   .product .carousel button#kiri
   {
     position: absolute;
-    left: 360px;
+    left: 0px;
   }
   .product .carousel button#kanan
   {
     position: absolute;
-    right: 350px;
+    right: 0px;
   }
 
   /* end prev dan next res */
@@ -722,35 +732,9 @@ display: none;
         font-size: 0px;
       }
       to {
-        font-size: 40px;
+        font-size: 20px;
       }
   }
     /* end animasi responsive */
   }
 
-
-
-  @media only screen and (max-width: 576px)
-  {
-        /* prev dan next res */
-
-  .product .carousel button
-  {
-    width: 32px;
-    height: 32px;
-  }
-  .product .carousel button#kiri
-  {
-    position: absolute;
-    left: 32px;
-    top: 630px;
-  }
-  .product .carousel button#kanan
-  {
-    position: absolute;
-    right: 32px;
-    top: 630px;
-  }
-
-  /* end prev dan next res */
-  }
