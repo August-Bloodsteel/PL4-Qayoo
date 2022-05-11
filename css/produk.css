@@ -245,7 +245,7 @@ display: none;
 {
   width: 192px;
 }
-.cart:hover img#pendek
+.cart:hover a .iconify
 {
   display: none;
   animation: fade2 1s;
@@ -622,18 +622,9 @@ display: none;
       width: 303px;
     }
 
-    .cart:hover img#pendek
-    {
-      display: inline-block;
-      animation: fade2 1s;
-    }
 
-    .cart:hover img#panjang
-    {
-      display: none;
-      visibility: visible;
-      animation: fade 1s;
-    }
+
+
 
     /* prev dan next res */
 
