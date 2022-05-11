@@ -1,7 +1,15 @@
 
-.product
-{
 
+.product .star h4 #titik
+{
+  font-size: 40px;
+  position: relative;
+  top: 0px;
+}
+
+.product .star h4 span
+{
+  padding-left: 7px;
 }
 .product .our h1
 {
@@ -359,12 +367,12 @@ display: none;
   
   .product .carousel-inner .carousel-item
   {
-      height: 132vh;
+      height: 60rem;
   }
 
   .product
   {
-      height: 135vh;
+      height: 60rem;
   }
 
   @keyframes zoom 
@@ -569,7 +577,7 @@ display: none;
 
     .product
     {
-      height: 1400px;
+      height: 90rem;
     }
     .product .carousel-inner .carousel-item
     {

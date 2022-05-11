@@ -1,7 +1,7 @@
 .testimoni
 {
     background-color: #EAE1D6;
-    height: 91vh;
+    height: 41rem;
 }
 
 .testimoni .carousel .carousel-inner
@@ -125,7 +125,7 @@
 {
     .testimoni
     {
-        height: 200vh;
+        height: 75rem;
     }
 
     .testimoni .kata .tombol
@@ -246,6 +246,6 @@
 {
     .testimoni
     {
-        height: 190vh;
+        height: 80rem;
     }
 }
