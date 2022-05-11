@@ -1,3 +1,22 @@
+.bg
+{
+    background-color: #D9C7B4;
+    height: 739px;
+}
+
+.bg .any h1
+{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 115%;
+    /* identical to box height, or 74px */
+    margin-top: 16px;
+
+    color: #464020;
+}
+
 
 .form form input
 {
@@ -20,7 +39,7 @@
 
 .form form
 {
-    padding:8px 10px 8px 2px;
+    padding:8px 0px 0px 0px;
 }
 
 .gambar
@@ -32,10 +51,142 @@
     background-size: cover;
 }
 
-/* responsive */
+.btn
+{
+  margin-top: 42px;
+  background: #BF9650;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  width: 135px;
+  height: 48px;
+  transition: 0.5s;
+  top: 230px;
+  left: 540px;
+}
 
+
+
+
+.btn a
+{
+  padding: 0px 0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 115%;
+  /* identical to box height, or 23px */
+  
+  
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.btn img#panjang
+{
+display: none;
+}
+
+
+.btn:hover
+{
+  width: 192px;
+}
+.btn:hover img#pendek
+{
+  display: none;
+  animation: fade2 1s;
+}
+
+.btn:hover img#panjang
+{
+  display: inline-block;
+  visibility: visible;
+  animation: fade 1s;
+}
+
+@keyframes fade
+{
+  from
+  {
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+@keyframes fade2
+{
+  from
+  {
+    opacity: 100%;
+  }
+  to
+  {
+    opacity: 0%;
+  }
+}
+
+/* responsive */
+@media only screen and (max-width: 1280px)
+{
+    .form form input
+    {
+        width: 452px;
+        height: 64px;
+    }
+
+    .form textarea
+    {
+        width: 452px;
+        height: 232px;
+        padding: 10px 10px 10px 10px;
+    }
+}
 @media only screen and (max-width: 1024px)
 {
+    .bg
+    {
+        background-color: #D9C7B4;
+        height: 739px;
+    }
+    .btn
+    {
+    top: 470px;
+    left: 0px;
+    width: 311px;
+    }
+    .btn:hover
+    {
+      width: 311px;
+    }
+    .btn:hover img#pendek
+    {
+      display: inline-block;
+      animation: none;
+    }
+    
+    .btn:hover img#panjang
+    {
+      display: none;
+      visibility: visible;
+      animation: fade 1s;
+    }
+
+    .bg .any h1
+    {
+        font-family: 'Fraunces';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 115%;
+        /* or 41px */
+
+
+        color: #464020;
+    }
     .form form input
     {
         width: 311px;
