@@ -7,9 +7,15 @@
   top: 0px;
 }
 
+
+
 .product .star h4 span
 {
   padding-left: 7px;
+}
+.product .star h4 
+{
+  margin-bottom: 0px;
 }
 .product .our h1
 {
@@ -19,7 +25,7 @@
     font-size: 64px;
     line-height: 115%;
     /* identical to box height, or 74px */
-
+    padding-top: 41px;
 
     color: #464020;
 }
@@ -28,6 +34,7 @@
 {
     position: absolute;
     top: 10px;
+    height: 86px;
 }
 
 /* .carousel-inner .carousel-item>.star
@@ -45,7 +52,7 @@
     /* identical to box height, or 46px */
 
     text-align: center;
-
+    margin-bottom: 10px;
     color: #464020;
 }
 .product .star h4
@@ -56,7 +63,7 @@
     font-size: 16px;
     line-height: 115%;
     /* or 18px */
-    margin: 20px;
+    margin: 0px;
     
     color: rgba(0, 0, 0, 0.5);
 }
@@ -478,6 +485,29 @@ display: none;
         
         color: #464020;
     }
+    .product .star h2
+    {
+      font-family: 'Open Sans';
+      font-style: italic;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 115%;
+      /* identical to box height, or 28px */
+      
+      color: #464020;
+    }
+
+    .product .our h1
+    {
+      font-family: 'Fraunces';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 36px;
+      line-height: 115%;
+      /* or 41px */
+      color: #464020;
+
+    }
     .pro
     {
       position: relative;
@@ -582,8 +612,9 @@ display: none;
     .product .carousel-inner .carousel-item
     {
         width: 100%;
-        height: 1300px;
+        height: 90rem;
         z-index: 2;
+        overflow: visible;
     }
 
     .cart
@@ -744,5 +775,44 @@ display: none;
       }
   }
     /* end animasi responsive */
+  }
+
+  @media only screen and (max-width: 780px)
+  {
+    .product .carousel-inner .carousel-item
+    {
+        width: 100%;
+        height: 70rem;
+        z-index: 2;
+        overflow: visible;
+    }
+    .product .carousel-inner
+    {
+        overflow: visible;
+    }
+
+    .product .details
+    {
+        width: 303px;
+        position: relative;
+        top: 230px;
+        
+    }
+
+    .pro
+    {
+      position: relative;
+      top: 190px;
+      width: 312px;
+      height: 314px;
+    }
+
+    .product .price
+    {
+        width: 303px;
+        position: relative;
+        top: 200px;
+    }
+
   }
 
