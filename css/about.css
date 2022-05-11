@@ -65,7 +65,6 @@
 display: none;
 }
 
-
 .expoler_btn:hover
 {
   width: 12rem;
@@ -117,5 +116,70 @@ display: none;
     .about .img_holder .about_kanan{
         margin: 0;
         width: 15rem;
-    } 
+    }
+    
+    .about .img_holder{
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+    
+    .about .about_title{
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    .expoler_btn{
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    .expoler_btn:hover
+    {
+    width: 100%;
+    }
+
+    .expoler_btn:hover img#pendek
+    {
+    display: inline-block;
+    animation: none;
+    }
+
+    .expoler_btn:hover img#panjang
+    {
+    display: none;
+    visibility: none;
+    animation: none;
+    }
+    
+}
+
+@media only screen and (max-width:500px){
+    .about .img_holder .about_kanan{
+        width: 9.125rem;
+    }
+
+    .about .img_holder .about_kiri{
+        width: 9.125rem;
+    }
+
+    .about .about_title{
+        width: 85%;
+        font-size: 2.25rem;
+    }
+
+    .about .about_para{
+        width: 85%;
+        justify-content: center;
+        margin-bottom: 1.6rem;
+        font-size: 1rem;
+    }
+
+    .expoler_btn{
+        width: 85%;
+    }
+
+    .expoler_btn:hover
+    {
+        width: 85%;
+    }
 }
