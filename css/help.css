@@ -49,6 +49,8 @@
     border-radius: 4px;
     background: url(../bg.png) no-repeat;
     background-size: cover;
+    margin-bottom: 38px;
+    margin-top: 48px;
 }
 
 .btn
@@ -150,7 +152,7 @@ display: none;
     .bg
     {
         background-color: #D9C7B4;
-        height: 739px;
+        height: 850px;
     }
     .btn
     {
