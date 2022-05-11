@@ -1,0 +1,121 @@
+.about{
+    background: rgba(234, 225, 214, 1);
+    font-family: 'Open Sans';
+    font-style: normal;
+}
+
+.about .about_title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 115%;
+    color: rgba(70, 64, 32, 1);
+    margin-bottom: 1.50rem;
+}
+
+.about .about_para{
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 180%;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 3rem;
+}
+
+.about .img_holder .about_kiri{
+    position: absolute;
+    left: -32%;
+    bottom: 11.5%;
+}
+
+.about .img_holder .about_kanan{
+    margin-top: 7.75rem;
+    margin-bottom: 9.5rem;
+}
+
+.expoler_btn
+{
+  background: #BF9650;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  width: 10.813rem;
+  height: 3rem;
+  transition: 0.5s;
+}
+
+.expoler_btn.n{
+    width: 85%;
+}
+
+.expoler_btn a
+{
+  padding: 0.75rem 1rem;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 115%;    
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.expoler_btn img#panjang
+{
+display: none;
+}
+
+
+.expoler_btn:hover
+{
+  width: 12rem;
+}
+.expoler_btn:hover img#pendek
+{
+  display: none;
+  animation: fade2 1s;
+}
+
+.expoler_btn:hover img#panjang
+{
+  display: inline-block;
+  visibility: visible;
+  animation: fade 1s;
+}
+
+@keyframes fade
+{
+  from
+  {
+    opacity: 0%;
+  }
+  to
+  {
+    opacity: 100%;
+  }
+}
+@keyframes fade2
+{
+  from
+  {
+    opacity: 100%;
+  }
+  to
+  {
+    opacity: 0%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+    .about .img_holder .about_kiri{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 15rem;
+    }
+
+    .about .img_holder .about_kanan{
+        margin: 0;
+        width: 15rem;
+    } 
+}
