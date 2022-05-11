@@ -2,6 +2,12 @@ nav{
     transition: 0.5s;
 }
 
+.logo_warna{
+    right: 5rem;
+    top: 2rem;
+    z-index: 101;
+}
+
 .navbar{
     background: rgba(70, 64, 32, 1);
     transition: 00.5s;

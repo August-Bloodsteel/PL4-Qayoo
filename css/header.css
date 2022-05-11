@@ -2,10 +2,16 @@ header{
     background-color: rgba(217, 199, 180, 1);
     font-family: 'Open Sans';
     font-style: normal;
+    height: 100vh;
+}
+
+header .banner{
+  overflow-x: hidden;
 }
 
 .header_banner{
-    height: 100vh;
+  height: 100vh;
+  margin-right: 7%;
 }
 
 header .header_title{
@@ -42,6 +48,7 @@ header .header_para{
 
 .shop_btn.n{
     width: 85%;
+    margin-bottom: 3.75rem;
 }
 
 .shop_btn a
@@ -61,7 +68,6 @@ header .header_para{
 {
 display: none;
 }
-
 
 .shop_btn:hover
 {
@@ -105,9 +111,35 @@ display: none;
 
 
 @media only screen and (max-width:900px) {
+  header{
+    height: auto;
+  }
+
     header .col_2{
         margin-top: 6.313rem;
     }
+
+    header .header_banner{
+      margin: 0;
+    }
+
+    .shop_btn:hover
+    {
+      width: 85%;
+    }
+    .shop_btn:hover img#pendek
+    {
+      display: inline-block;
+      animation: none;
+    }
+
+    .shop_btn:hover img#panjang
+    {
+      display: none;
+      visibility: none;
+      animation: none;
+    }
+
 }
 
 @media only screen and (max-width:500px) {
