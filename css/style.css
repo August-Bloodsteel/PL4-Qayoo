@@ -21,3 +21,12 @@ html,body{
     overflow-x: hidden;
     
 }
+.product .lingkaran#link3
+{
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 100%;
+  position: absolute;
+  left: 1300px;
+}
