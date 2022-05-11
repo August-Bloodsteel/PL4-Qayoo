@@ -21,6 +21,17 @@ html,body{
     overflow-x: hidden;
     
 }
+.about .lingkaran#link2
+{
+  width: 400px;
+  height: 400px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 100%;
+  position: absolute;
+  left: -200px;
+  bottom: -80px;
+  z-index: 1;
+}
 .product .lingkaran#link3
 {
   width: 400px;
