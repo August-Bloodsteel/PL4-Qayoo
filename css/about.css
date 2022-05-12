@@ -4,6 +4,11 @@
     font-style: normal;
 }
 
+.about .sip
+{
+  margin-left: 70px;
+}
+
 .about .about_title{
     font-family: 'Fraunces';
     font-style: normal;
