@@ -74,6 +74,10 @@ display: none;
   display: none;
   animation: fade2 1s;
 }
+.expoler_btn a .iconify
+{
+  font-size: 20PX;
+}
 
 .expoler_btn:hover img#panjang
 {

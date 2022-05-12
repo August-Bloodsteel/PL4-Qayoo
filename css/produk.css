@@ -435,6 +435,10 @@
   line-height: 115%;    
   color: rgba(0, 0, 0, 0.75);
 }
+.cart a .iconify
+{
+font-size: 20px;
+}
 
 .cart img#panjang
 {
@@ -605,7 +609,7 @@ display: none;
 
     .product
     {
-      height: 90rem;
+      height: 95rem;
     }
     .product .carousel-inner .carousel-item
     {
@@ -758,7 +762,7 @@ display: none;
   }
     /* end animasi responsive */
     .cart{
-      margin-top: 10rem;
+      margin-top: 48px;
       width: 100%;
   }
 
@@ -826,6 +830,11 @@ display: none;
         width: 303px;
         position: relative;
         top: 200px;
+    }
+
+    .product
+    {
+      height: 87rem;
     }
 
   }

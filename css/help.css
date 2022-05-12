@@ -95,7 +95,7 @@ display: none;
 {
   width: 192px;
 }
-.btn:hover img#pendek
+.btn:hover a .iconifty
 {
   display: none;
   animation: fade2 1s;
@@ -152,19 +152,25 @@ display: none;
     .bg
     {
         background-color: #D9C7B4;
-        height: 850px;
+        height: 870px;
     }
     .btn
     {
     top: 470px;
     left: 0px;
     width: 311px;
+    margin-top: 49px;
     }
     .btn:hover
     {
       width: 311px;
+      background-color:#7B5E2D;
     }
-    .btn:hover img#pendek
+    .btn:hover a
+    {
+      color: white;
+    }
+    .btn:hover a .iconifty
     {
       display: inline-block;
       animation: none;

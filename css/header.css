@@ -73,10 +73,14 @@ display: none;
 {
   width: 12rem;
 }
-.shop_btn:hover img#pendek
+.shop_btn:hover a .iconify
 {
   display: none;
   animation: fade2 1s;
+}
+.shop_btn a .iconify
+{
+  font-size: 20px;
 }
 
 .shop_btn:hover img#panjang
@@ -126,8 +130,13 @@ display: none;
     .shop_btn:hover
     {
       width: 85%;
+      background-color:#7B5E2D;
     }
-    .shop_btn:hover img#pendek
+    .shop_btn:hover a
+    {
+     color: white;
+    }
+    .shop_btn:hover a .iconify
     {
       display: inline-block;
       animation: none;
