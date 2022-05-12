@@ -69,7 +69,7 @@ display: none;
 {
   width: 12rem;
 }
-.expoler_btn:hover img#pendek
+.expoler_btn:hover a .iconify
 {
   display: none;
   animation: fade2 1s;
@@ -136,12 +136,22 @@ display: none;
     .expoler_btn:hover
     {
     width: 100%;
+    background-color:#7B5E2D;
+    }
+    .expoler_btn:hover a
+    {
+    color: white;
     }
 
-    .expoler_btn:hover img#pendek
+    .expoler_btn:hover a .iconify
     {
     display: inline-block;
     animation: none;
+    }
+
+    .expoler_btn:hover a
+    {
+      color: white;
     }
 
     .expoler_btn:hover img#panjang

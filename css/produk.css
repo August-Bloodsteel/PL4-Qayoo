@@ -202,45 +202,11 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
-.cart
-{
-  margin-top: 42px;
-  background: #BF9650;
-  border: 1px solid rgba(0, 0, 0, 0.5);
-  border-radius: 4px;
-  width: 173px;
-  height: 48px;
-  transition: 0.5s;
-}
-
-/* .cart a i
-{
-  font-size: 2em;
-} */
 
 
-.cart a
-{
-  padding: 12px 16px;
-  list-style: none;
-  text-decoration: none;
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 115%;
-  /* identical to box height, or 23px */
-  
-  
-  color: rgba(0, 0, 0, 0.75);
-}
-
-.cart img#panjang
-{
-display: none;
-}
 
 
+<<<<<<< HEAD
 .cart:hover
 {
   width: 192px;
@@ -258,6 +224,8 @@ display: none;
   animation: fade 1s;
 }
 
+=======
+>>>>>>> radit
 @keyframes fade
 {
   from
@@ -461,6 +429,56 @@ display: none;
   /* END ANIMASI */
 
 
+  .cart
+{
+  background: #BF9650;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 0.25rem;
+  width: 10.813rem;
+  height: 3rem;
+  transition: 0.5s;
+}
+
+.cart.n{
+    width: 85%;
+}
+
+.cart a
+{
+  padding: 0.75rem 1rem;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 115%;    
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.cart img#panjang
+{
+display: none;
+}
+
+.cart:hover
+{
+  width: 12rem;
+}
+.cart:hover a .iconify
+{
+  display: none;
+  animation: fade2 1s;
+}
+
+.cart:hover img#panjang
+{
+  display: inline-block;
+  visibility: visible;
+  animation: fade 1s;
+}
+
+
   /* responsive */
 
   @media only screen and (max-width:1024px)
@@ -617,6 +635,7 @@ display: none;
         overflow: visible;
     }
 
+<<<<<<< HEAD
     .cart
     {
       width: 303px;
@@ -628,6 +647,8 @@ display: none;
 
     /* prev dan next res */
 
+=======
+>>>>>>> radit
     .product .pro .geser
     {
       position: relative;
@@ -650,7 +671,11 @@ display: none;
     right: 0px;
   }
 
+  
+
   /* end prev dan next res */
+
+
 
     /* animasi responsive */
     .carousel-inner .carousel-item.active .pro .g1 {
@@ -766,6 +791,38 @@ display: none;
       }
   }
     /* end animasi responsive */
+    .cart{
+      margin-top: 10rem;
+      width: 100%;
+  }
+
+  .cart:hover
+  {
+  width: 100%;
+  background-color:#7B5E2D;
+  }
+  .cart:hover a
+  {
+  color: white;
+  }
+
+  .cart:hover a .iconify
+  {
+  display: inline-block;
+  animation: none;
+  }
+
+  .cart:hover a
+  {
+    color: white;
+  }
+
+  .cart:hover img#panjang
+  {
+  display: none;
+  visibility: none;
+  animation: none;
+  }
   }
 
   @media only screen and (max-width: 780px)
