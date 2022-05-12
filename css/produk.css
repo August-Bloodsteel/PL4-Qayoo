@@ -1,4 +1,7 @@
-
+.product .carousel
+{
+  margin-left: 60px;
+}
 
 .product .star h4 #titik
 {
@@ -26,7 +29,7 @@
     line-height: 115%;
     /* identical to box height, or 74px */
     padding-top: 41px;
-
+    margin-left: 60px;
     color: #464020;
 }
 
@@ -109,7 +112,7 @@
   height: 417px;
   border-radius: 100%;
   position: relative;
-  top: 40px;
+  top: 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -472,6 +475,11 @@ display: none;
 
   @media only screen and (max-width:1024px)
   {
+    .product .carousel
+    {
+      margin-left: 0px;
+    }
+
     .product .details
     {
         width: 303px;
@@ -513,6 +521,7 @@ display: none;
       line-height: 115%;
       /* or 41px */
       color: #464020;
+      margin-left: 0px;
 
     }
     .pro
