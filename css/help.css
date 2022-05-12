@@ -66,9 +66,6 @@
   left: 540px;
 }
 
-
-
-
 .btn a
 {
   padding: 0px 0px;
@@ -90,12 +87,11 @@
 display: none;
 }
 
-
 .btn:hover
 {
   width: 192px;
 }
-.btn:hover a .iconifty
+.btn:hover a .iconify
 {
   display: none;
   animation: fade2 1s;
@@ -132,6 +128,25 @@ display: none;
 }
 
 /* responsive */
+@media only screen and (max-width: 1400px)
+{
+    .form form input
+    {
+        width: 452px;
+        height: 64px;
+    }
+
+    .form textarea
+    {
+        width: 452px;
+        height: 232px;
+        padding: 10px 10px 10px 10px;
+    }
+    .btn
+    {
+      left: 460px;
+    }
+}
 @media only screen and (max-width: 1280px)
 {
     .form form input

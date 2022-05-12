@@ -462,6 +462,11 @@ display: none;
   animation: fade 1s;
 }
 
+.product .carousel-inner .carousel-item.active
+{
+  z-index: 10;
+}
+
 
   /* responsive */
 
@@ -838,4 +843,3 @@ display: none;
     }
 
   }
-

@@ -19,7 +19,7 @@
 {
     font-family: 'Fraunces';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 600; 
     font-size: 64px;
     line-height: 115%;
     /* or 74px */
@@ -124,6 +124,11 @@
 
 @media only screen and (max-width: 1024px)
 {
+    .testimoni .carousel .carousel-inner
+{
+    margin-top: 48px;
+}
+
     .testimoni
     {
         height: 75rem;
