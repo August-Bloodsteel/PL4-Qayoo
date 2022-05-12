@@ -206,26 +206,6 @@
 
 
 
-<<<<<<< HEAD
-.cart:hover
-{
-  width: 192px;
-}
-.cart:hover a .iconify
-{
-  display: none;
-  animation: fade2 1s;
-}
-
-.cart:hover img#panjang
-{
-  display: inline-block;
-  visibility: visible;
-  animation: fade 1s;
-}
-
-=======
->>>>>>> radit
 @keyframes fade
 {
   from
@@ -635,20 +615,6 @@ display: none;
         overflow: visible;
     }
 
-<<<<<<< HEAD
-    .cart
-    {
-      width: 303px;
-    }
-
-
-
-
-
-    /* prev dan next res */
-
-=======
->>>>>>> radit
     .product .pro .geser
     {
       position: relative;
