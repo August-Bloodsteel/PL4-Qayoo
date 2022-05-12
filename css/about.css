@@ -115,6 +115,11 @@ display: none;
 }
 
 @media only screen and (max-width:900px) {
+  .about .sip
+{
+  margin-left: 0px;
+}
+
     .about .img_holder .about_kiri{
         position: relative;
         left: 0;
