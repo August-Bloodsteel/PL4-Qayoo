@@ -3,6 +3,14 @@
   margin-left: 60px;
 }
 
+.product .details .strip
+{
+  width: 19.5px;
+  height: 1px;
+  margin-right: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .product .star h4 #titik
 {
   font-size: 40px;

@@ -169,14 +169,14 @@ display: none;
     .bg
     {
         background-color: #D9C7B4;
-        height: 870px;
+        height: 885px;
     }
     .btn
     {
     top: 470px;
     left: 0px;
     width: 311px;
-    margin-top: 49px;
+    margin-top: 60px;
     }
     .btn:hover
     {
@@ -208,7 +208,7 @@ display: none;
         font-size: 36px;
         line-height: 115%;
         /* or 41px */
-
+        margin-top: 48px;
 
         color: #464020;
     }
@@ -240,6 +240,10 @@ display: none;
         height: 96px;
         background: url(../bg2.png) no-repeat;
         background-size: cover;
+        margin-top: 32px;
+        margin-bottom: 32px;
     }
+    
+
 
 }
