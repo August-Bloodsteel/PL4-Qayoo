@@ -67,7 +67,7 @@
 
 .expoler_btn img#panjang
 {
-display: inline-block;
+display: none;
 }
 
 .expoler_btn:hover
@@ -84,7 +84,7 @@ display: inline-block;
   font-size: 20PX;
 }
 
-.expoler_btn:hover a img#panjang
+.expoler_btn:hover img#panjang
 {
   display: inline-block;
   visibility: visible;
